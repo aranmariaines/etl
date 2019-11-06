@@ -2,7 +2,7 @@
 <h1 id="title1">Power outage analysis</h1>
 <br/><br/>
 
-# Area Metropolitana de Buenos Aires, Argentina
+### Area Metropolitana de Buenos Aires, Argentina
 
 I want to understand the power outage by region and hours in Area Metropolitana de Buenos Aires.
 
