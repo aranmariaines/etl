@@ -1,0 +1,14 @@
+var data = {
+	fuente : 'Web Service',
+    empresa: 'EDENOR',
+    totalUsuariosSinSuministro: '1.484',
+    totalUsuariosConSuministro: '2.997.007',
+    ultimaActualizacion: '13:35',
+    totalUsuariosAyer: '54.468',
+    cortesPreventivos:  [],
+    cortesProgramados:  [{partido: 'LA MATANZA',localidad: 'RAMOS MEJIA',subestacion_alimentador: '164-SAN JUSTO / R:164-TR1 / 164-5514',usuarios: '84',normalizacion: 'Sin datos'},{partido: 'LA MATANZA',localidad: 'VIRREY DEL PINO',subestacion_alimentador: '353-EL PINO / R:353-TR1 / 353-5517',usuarios: '7',normalizacion: 'Sin datos'},{partido: 'LA MATANZA',localidad: 'VIRREY DEL PINO',subestacion_alimentador: '353-EL PINO / R:353-TR2 / 353-5524',usuarios: '68',normalizacion: 'Sin datos'},{partido: 'MALVINAS ARGENTINAS',localidad: 'EL TRIANGULO',subestacion_alimentador: '252-TORTUGUITAS / R:252-TR1 / 252-5547',usuarios: '22',normalizacion: 'Sin datos'},{partido: 'MALVINAS ARGENTINAS',localidad: 'PABLO NOGUES',subestacion_alimentador: '252-TORTUGUITAS / R:252-TR1 / 252-5547',usuarios: '239',normalizacion: 'Sin datos'},{partido: 'MARCOS PAZ',localidad: 'MARCOS PAZ',subestacion_alimentador: '353-EL PINO / R:353-TR1 / 353-5517',usuarios: '2',normalizacion: 'Sin datos'},{partido: 'MORENO',localidad: 'LA REJA',subestacion_alimentador: '163-LA REJA / R:163-TR1 / 163-5515',usuarios: '289',normalizacion: 'Sin datos'},{partido: 'PILAR',localidad: 'VILLA ROSA',subestacion_alimentador: '51-MATHEU / R:51-TR4 / 51-5481',usuarios: '122',normalizacion: 'Sin datos'}],
+    cortesServicioMedia:  [{partido: 'GRAL SAN MARTIN',localidad: 'C JARDIN EL LIBERTADOR',subestacion_alimentador: '262-ROTONDA / R:262-TR1 / 262-5511',usuarios: '109',normalizacion: 'Sin datos'},{partido: 'LA MATANZA',localidad: 'LA TABLADA',subestacion_alimentador: '162-TAPIALES / R:162-TR1 / 162-5514',usuarios: '406',normalizacion: 'Sin datos'}],
+    cortesComunicados:  [],
+    cortesServicioBaja:  [ {partido: 'CAPITAL FEDERAL', localidad: 'CHACARITA', usuarios: '21'}, {partido: 'CAPITAL FEDERAL', localidad: 'PALERMO', usuarios: '14'}, {partido: 'CAPITAL FEDERAL', localidad: 'VILLA PUEYRRED?N', usuarios: '10'}, {partido: 'GRAL RODRIGUEZ', localidad: 'GRAL RODRIGUEZ', usuarios: '21'}, {partido: 'LA MATANZA', localidad: 'CIUDAD EVITA', usuarios: '12'}, {partido: 'LA MATANZA', localidad: 'TAPIALES', usuarios: '4'}, {partido: 'LA MATANZA', localidad: 'VIRREY DEL PINO', usuarios: '1'}, {partido: 'MORENO', localidad: 'TRUJUI', usuarios: '16'}, {partido: 'PILAR', localidad: 'LA LONJA', usuarios: '10'}, {partido: 'PILAR', localidad: 'VILLA ROSA', usuarios: '17'}, {partido: 'SAN ISIDRO', localidad: 'BOULOGNE', usuarios: '4'}, {partido: 'SAN ISIDRO', localidad: 'MARTINEZ', usuarios: '6'}]
+  }		
+		

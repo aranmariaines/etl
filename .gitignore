@@ -1,5 +1,8 @@
+# DS_Store
+*.DS_Store
+
 # Ignore credentials
-credentials.py
+*.credentials.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
