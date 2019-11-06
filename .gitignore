@@ -1,8 +1,13 @@
 # DS_Store
-*.DS_Store
+.DS_Store
+
+# Visual Studio
+.vscode
 
 # Ignore credentials
-*.credentials.py
+.credentials.py
+/web_scraper/credentials.py
+/csv_python_database/credentials.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
