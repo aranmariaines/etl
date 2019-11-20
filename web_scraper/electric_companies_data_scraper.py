@@ -8,7 +8,7 @@ https://www.argentina.gob.ar/enre/estado-de-la-red-electrica-en-el-area-metropol
 # Libraries
 from functions import download_data_from_url,transform_js_to_py,generate_tables, generate_ids,connect_to_database,insert_into_database,add_companpy_column
 import datetime
-from credentials import user,password,database_name,host
+from credentials_docker import user,password,database_name,host,port
 import time
 
 # List the companies to get that
@@ -42,7 +42,7 @@ while True:
             
         # Connect to database
         print('Connecting to database...')
-        engine = connect_to_database(user,password,host,database_name)
+        engine = connect_to_database(user,password,host,database_name,port)
             
         # Add data to database
         print('Adding data into database...')

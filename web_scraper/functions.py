@@ -144,7 +144,7 @@ def add_companpy_column(table,company):
     table['company'] = company
     
 
-def connect_to_database(user,password,host,database_name):
+def connect_to_database(user,password,host,database_name,port):
     """
     Connect to PostgreSQL using credentials from a hidden file
     
@@ -167,7 +167,8 @@ def connect_to_database(user,password,host,database_name):
     """
     
     # Connect to database
-    db_string = f"postgres://{user}:{password}@{host}/{database_name}" 
+    print(user,password,host,port,database_name)
+    db_string = f"postgres://{user}:{password}@{host}:{port}/{database_name}" 
     engine = sqlalchemy.create_engine(db_string)
     
     return engine
