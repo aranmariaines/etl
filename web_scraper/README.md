@@ -4,10 +4,9 @@
 
 ### Area Metropolitana de Buenos Aires, Argentina
 
-I want to understand the power outage by region and hours in Area Metropolitana de Buenos Aires.
+This project collects data on power outages in Ciudad de Buenos Aires. It aims to understand the quality of services provided by electric companies. 
 
-Two companies provide the service: Edenor and Edesur. 
+The power outage data is available as snapshots of the current situation in a [web page](https://www.argentina.gob.ar/enre/estado-de-la-red-electrica-en-el-area-metropolitana-de-buenos-aires). I created a web scraper to store this data in a database to analyze them. 
 
-The power outage data is available as snapshot of current situation in a [web page](https://www.argentina.gob.ar/enre/estado-de-la-red-electrica-en-el-area-metropolitana-de-buenos-aires). I created a web scraper to store this data in a database to analyze them. 
+There is no public data on historical power outage, so I am collecting it with a web scraper.
 
-I am currently in collecting data stage.

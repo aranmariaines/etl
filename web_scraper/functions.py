@@ -7,8 +7,9 @@ This script contains all the functions needed to run the electric_companies_data
 import urllib
 import pandas as pd
 import js2py
-import sqlalchemy
+# import sqlalchemy
 from importlib import reload
+from pathlib import Path
 
 
 def download_data_from_url(company,output_javascript_file):
@@ -189,7 +190,20 @@ def insert_into_database(table, engine):
     table.to_sql(name = table.name, con=engine, if_exists = 'append', index = False)
     
     return
+
+def insert_into_csv(table):
+    """
+    Get dataframe and append it to csv file
     
+    Parameters
+    ---------
+    table: data frame
+        dataframe to upload
+    """
+
+    table_name = table.name
+    file_name = Path.cwd().joinpath('data',table_name)
+    table.to_csv(file_name, index = False, mode = 'a', header = False)
 
     
 
