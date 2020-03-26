@@ -10,3 +10,8 @@ The power outage data is available as snapshots of the current situation in a [w
 
 There is no public data on historical power outage, so I am collecting it with a web scraper.
 
+# Online dashboard
+Google Data Studio visualization shows historical power outage in AMBA region:
+
+https://datastudio.google.com/s/vII2RVzBC1U
+
