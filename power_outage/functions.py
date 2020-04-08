@@ -201,7 +201,7 @@ def insert_into_csv(table):
         dataframe to upload
     """
 
-    table_name = table.name
+    table_name = table.name + '.csv'
     file_name = Path.cwd().joinpath('data',table_name)
     table.to_csv(file_name, index = False, mode = 'a', header = False)
 

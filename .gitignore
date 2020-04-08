@@ -6,15 +6,22 @@
 
 # Ignore credentials
 .credentials.py
-/web_scraper/credentials.py
-/web_scraper/credentials_docker.py
+/power_outage/credentials.py
+/power_outage/credentials_docker.py
 /csv_python_database/credentials.py
+/power_outage/preprocess/clave.json
+/power_outage/preprocess/clave_json.json
+
+# Ignore data
+/power_outage/data
+/power_outage/company.py
+
 
 # Ignore dump file
-/web_scraper/dump.sql
+/power_outage/dump.sql
 
 # Ignore postgres volume
-/web_scraper/postgres-data
+/power_outage/postgres-data
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
