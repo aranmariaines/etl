@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/home/pi/Documents/github/etl/power_outage/preprocess/preprocess.py", line 5, in <module>
+    path = os.path.join(Path.home(),'Documents','github','etl','power_outage')
+AttributeError: type object 'Path' has no attribute 'home'
