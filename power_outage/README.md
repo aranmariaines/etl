@@ -1,4 +1,4 @@
-<img align="left" width="140" height="140" src="https://github.com/nakanotokyo/etl/blob/master/web_scraper/logo/power_outage.jpeg" alt="power_outage">
+<img align="left" width="140" height="140" src="https://github.com/aranmariaines/etl/blob/master/web_scraper/logo/power_outage.jpeg" alt="power_outage">
 <h1 id="title1">Power outage analysis</h1>
 <br/><br/>
 
